@@ -4,6 +4,10 @@
   "authors": [
     "David Sturley <david.sturley@deque.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dequelabs/escape-selector.git"
+  },
   "description": "Escape a string used in a CSS selector",
   "license": "MPL-2.0",
   "main": "lib/index.js",
