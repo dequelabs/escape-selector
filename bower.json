@@ -5,7 +5,7 @@
     "David Sturley <david.sturley@deque.com>"
   ],
   "description": "Escape a string used in a CSS selector",
-  "private": true,
+  "license": "MPL-2.0",
   "main": "lib/index.js",
   "ignore": [
     "**/.*",
