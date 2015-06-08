@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<title>Rule Engine Tests</title>
+		<title>Tests</title>
 
 		<link rel="stylesheet" type="text/css" href="../node_modules/mocha/mocha.css" />
 		<script src="../node_modules/mocha/mocha.js"></script>
@@ -34,7 +34,7 @@
 						});
 					}
 					s.setAttribute('data-cover-flags', 'branchTracking');
-					s.src = '../build/blanket_mocha.js';
+					s.src = '../node_modules/blanket/dist/mocha/blanket_mocha.js';
 					document.head.appendChild(s);
 				} else {
 					document.addEventListener('click', function (e) {
